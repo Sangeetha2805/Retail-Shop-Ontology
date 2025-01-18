@@ -2,7 +2,7 @@
 Semantic Representation and Insights using Protege, Neo4j, and Topic Modeling
 
 ## Overview
-This project involves creating a semantic ontology for a retail shop using the Protege tool. The ontology is designed to manage perishable and non-perishable goods, track product attributes, and analyze key relationships. The workflow includes preprocessing the ontology in OWL format, performing topic modeling to extract key insights, and visualizing the ontology's structure in Neo4j.
+This project involves creating a semantic ontology for a retail shop using the Protege tool. The ontology is designed to manage perishable and non-perishable goods, track product attributes, and analyze key relationships. The workflow includes preprocessing the ontology in OWX format, performing topic modeling to extract key insights, and visualizing the ontology's structure in Neo4j.
 
 ## Workflow
 ### 1. **Ontology Creation**
@@ -31,19 +31,16 @@ This project involves creating a semantic ontology for a retail shop using the P
 - `RetailShop_Ontology_Work.pdf`: Detailed documentation of the project steps, including ontology creation, preprocessing, and visualization.
 
 ### Scripts
-- `https://colab.research.google.com/drive/1RZ3mf0Jskt9ucvowSs3OJs_GoagDJJWE?usp=sharing`: Google Colab notebook for:
-  - Parsing OWL files using `rdflib`.
+Google Colab notebook Access
+- `https://colab.research.google.com/drive/1RZ3mf0Jskt9ucvowSs3OJs_GoagDJJWE?usp=sharing`
+  - Parsing OWX files using `rdflib`.
   - Performing topic modeling to extract key concepts.
   - Exporting processed data to CSV format for Neo4j.
 
 ### Ontology File
-- `retailshop_ontology.owl`: The OWL file representing the retail shop ontology created in Protege.
+- `retailshop_ontology.owX`: The OWX file representing the retail shop ontology created in Protege.
 
 ### Data Outputs
-- `classes.csv`: Extracted classes.
-- `subclasses.csv`: Extracted subclasses and their relationships.
-- `data_properties.csv`: Data properties, domains, and ranges.
-- `object_properties.csv`: Object properties, domains, and ranges.
 - `combined_data.csv`: Consolidated data for all ontology components and topics.
 
 ### Neo4j Cypher Queries
