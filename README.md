@@ -1,8 +1,6 @@
 # Retail-Shop-Ontology
 Semantic Representation and Insights using Protege, Neo4j, and Topic Modeling
 
-# Retail Shop Ontology: Semantic Representation and Insights
-
 ## Overview
 This project involves creating a semantic ontology for a retail shop using the Protege tool. The ontology is designed to manage perishable and non-perishable goods, track product attributes, and analyze key relationships. The workflow includes preprocessing the ontology in OWL format, performing topic modeling to extract key insights, and visualizing the ontology's structure in Neo4j.
 
