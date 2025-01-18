@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/elcot/ontologies/2024/7/untitled-ontology-19"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/elcot/ontologies/2024/7/untitled-ontology-19">
+    <Prefix name="" IRI="http://www.semanticweb.org/elcot/ontologies/2024/7/untitled-ontology-19/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-19" IRI="http://www.semanticweb.org/elcot/ontologies/2024/7/untitled-ontology-19#"/>
+    <Declaration>
+        <Class IRI="#Alert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chennai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coimbatore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DMART"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daily_Essentials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dindigul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpiryDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hosur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Madurai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonPerishableProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerishableProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product_category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shoolagiri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tamil_Nadu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tiruchirappalli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tiruppur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triggers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warehouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WarehouseInTamilNadu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dairy_&amp;_Frozen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruits_&amp;_Vegetables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grocery_&amp;_Staples"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ExpiryAlert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Stored_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExpiryDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGood_Supply_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasManufactureDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProduct_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#located_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ExpiryDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ManufactureDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PriceValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bread"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chennai_1_Shelf_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chennai_Warehouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coimbatore_2_Shelf_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coimbatore_Warehouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cooking_Oil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExpiryAlert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Honey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tamilnadu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wheat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yogurt"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alert"/>
+        <Class IRI="#DMART"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chennai"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coimbatore"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daily_Essentials"/>
+        <Class IRI="#NonPerishableProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#DMART"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dindigul"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erode"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpiryDate"/>
+        <Class IRI="#Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hosur"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#DMART"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Madurai"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureDate"/>
+        <Class IRI="#Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonPerishableProducts"/>
+        <Class IRI="#Product_category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerishableProducts"/>
+        <Class IRI="#Product_category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Price"/>
+        <Class IRI="#DMART"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Product_category"/>
+        <Class IRI="#DMART"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salem"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shoolagiri"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tamil_Nadu"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiruchirappalli"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiruppur"/>
+        <Class IRI="#Tamil_Nadu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triggers"/>
+        <Class IRI="#Alert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warehouse"/>
+        <Class IRI="#DMART"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WarehouseInTamilNadu"/>
+        <Class IRI="#Warehouse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy_&amp;_Frozen"/>
+        <Class IRI="#PerishableProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruits_&amp;_Vegetables"/>
+        <Class IRI="#PerishableProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grocery_&amp;_Staples"/>
+        <Class IRI="#NonPerishableProducts"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Dairy_&amp;_Frozen"/>
+        <NamedIndividual IRI="#Bread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tamil_Nadu"/>
+        <NamedIndividual IRI="#Chennai_1_Shelf_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WarehouseInTamilNadu"/>
+        <NamedIndividual IRI="#Chennai_Warehouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tamil_Nadu"/>
+        <NamedIndividual IRI="#Coimbatore_2_Shelf_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WarehouseInTamilNadu"/>
+        <NamedIndividual IRI="#Coimbatore_Warehouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daily_Essentials"/>
+        <NamedIndividual IRI="#Cooking_Oil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Triggers"/>
+        <NamedIndividual IRI="#ExpiryAlert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daily_Essentials"/>
+        <NamedIndividual IRI="#Honey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dairy_&amp;_Frozen"/>
+        <NamedIndividual IRI="#Milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Grocery_&amp;_Staples"/>
+        <NamedIndividual IRI="#Rice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Warehouse"/>
+        <NamedIndividual IRI="#Tamilnadu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Grocery_&amp;_Staples"/>
+        <NamedIndividual IRI="#Wheat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dairy_&amp;_Frozen"/>
+        <NamedIndividual IRI="#Yogurt"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ExpiryAlert"/>
+        <NamedIndividual IRI="#Bread"/>
+        <NamedIndividual IRI="#Bread"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExpiryDate"/>
+        <NamedIndividual IRI="#Bread"/>
+        <NamedIndividual IRI="#Bread"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasManufactureDate"/>
+        <NamedIndividual IRI="#Bread"/>
+        <NamedIndividual IRI="#Bread"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Bread"/>
+        <NamedIndividual IRI="#Bread"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located_in"/>
+        <NamedIndividual IRI="#Chennai_1_Shelf_3"/>
+        <NamedIndividual IRI="#Chennai_1_Shelf_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Stored_in"/>
+        <NamedIndividual IRI="#Chennai_Warehouse"/>
+        <NamedIndividual IRI="#Chennai_Warehouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#Chennai_Warehouse"/>
+        <NamedIndividual IRI="#Tamilnadu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located_in"/>
+        <NamedIndividual IRI="#Coimbatore_2_Shelf_5"/>
+        <NamedIndividual IRI="#Coimbatore_2_Shelf_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Stored_in"/>
+        <NamedIndividual IRI="#Coimbatore_Warehouse"/>
+        <NamedIndividual IRI="#Coimbatore_Warehouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLocation"/>
+        <NamedIndividual IRI="#Coimbatore_Warehouse"/>
+        <NamedIndividual IRI="#Tamilnadu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct_of"/>
+        <NamedIndividual IRI="#Cooking_Oil"/>
+        <NamedIndividual IRI="#Cooking_Oil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ExpiryAlert"/>
+        <NamedIndividual IRI="#ExpiryAlert"/>
+        <NamedIndividual IRI="#Milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct_of"/>
+        <NamedIndividual IRI="#Honey"/>
+        <NamedIndividual IRI="#Honey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ExpiryAlert"/>
+        <NamedIndividual IRI="#Milk"/>
+        <NamedIndividual IRI="#Milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExpiryDate"/>
+        <NamedIndividual IRI="#Milk"/>
+        <NamedIndividual IRI="#Milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasManufactureDate"/>
+        <NamedIndividual IRI="#Milk"/>
+        <NamedIndividual IRI="#Milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Milk"/>
+        <NamedIndividual IRI="#Milk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct_of"/>
+        <NamedIndividual IRI="#Rice"/>
+        <NamedIndividual IRI="#Rice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProduct_of"/>
+        <NamedIndividual IRI="#Wheat"/>
+        <NamedIndividual IRI="#Wheat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ExpiryAlert"/>
+        <NamedIndividual IRI="#Yogurt"/>
+        <NamedIndividual IRI="#Yogurt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExpiryDate"/>
+        <NamedIndividual IRI="#Yogurt"/>
+        <NamedIndividual IRI="#Yogurt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasManufactureDate"/>
+        <NamedIndividual IRI="#Yogurt"/>
+        <NamedIndividual IRI="#Yogurt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Yogurt"/>
+        <NamedIndividual IRI="#Yogurt"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ExpiryDate"/>
+        <NamedIndividual IRI="#Bread"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-20T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ManufactureDate"/>
+        <NamedIndividual IRI="#Bread"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceValue"/>
+        <NamedIndividual IRI="#Bread"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceValue"/>
+        <NamedIndividual IRI="#Cooking_Oil"/>
+        <Literal>1 L = Rs.150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceValue"/>
+        <NamedIndividual IRI="#Honey"/>
+        <Literal>1 L = Rs.480</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ExpiryDate"/>
+        <NamedIndividual IRI="#Milk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-03T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ManufactureDate"/>
+        <NamedIndividual IRI="#Milk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceValue"/>
+        <NamedIndividual IRI="#Milk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceValue"/>
+        <NamedIndividual IRI="#Rice"/>
+        <Literal>1 kg = Rs.65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceValue"/>
+        <NamedIndividual IRI="#Wheat"/>
+        <Literal>1 kg = Rs.60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ExpiryDate"/>
+        <NamedIndividual IRI="#Yogurt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ManufactureDate"/>
+        <NamedIndividual IRI="#Yogurt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-07T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PriceValue"/>
+        <NamedIndividual IRI="#Yogurt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ExpiryAlert"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ExpiryAlert"/>
+            <Class IRI="#Dairy_&amp;_Frozen"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Stored_in"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Stored_in"/>
+            <Class IRI="#WarehouseInTamilNadu"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExpiryDate"/>
+        <Class IRI="#PerishableProducts"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrice"/>
+        <Class IRI="#PerishableProducts"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProduct_of"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProduct_of"/>
+            <Class IRI="#Product_category"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ExpiryAlert"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ExpiryAlert"/>
+            <Class IRI="#Triggers"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Stored_in"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Stored_in"/>
+            <Class IRI="#Tamil_Nadu"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExpiryDate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasExpiryDate"/>
+            <Class IRI="#Date"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProduct_of"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProduct_of"/>
+            <Class IRI="#Grocery_&amp;_Staples"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
